@@ -7,7 +7,7 @@ function Login() {
         e.preventDefault();
         if(user.name==="" || user.password==="")
         {
-            setShowError("Both user name and password are required.")
+            setShowError("Both username and password are required.")
         }else{
             setShowError("");
         }
